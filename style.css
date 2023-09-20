@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+
+.link-container {
+    background-color: #336699;
+  
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* .inside-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+h1 {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 42px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    text-transform: uppercase;
+    background: #FAE81D;
+    color: 0000;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+    padding: 16px 48px;
+    margin: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    font-family:Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:#EDF2F3;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    padding: 0px 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    display: flex;
+    align-items: right;
+    margin: 5px;
+    gap: 16px;
+    
+}
+
+button:hover {
+    background: #e1d01a;
+}
+
+.result {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input box
+font-family:Poppins;
+font-size: 18px;
+font-weight: 400;
+background-color:#EDF2F3;
+width: 80%;
+height: 250px;
+border-radius: 15px 15px 15px 15px;
+
+Button
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600;
+background: #FAE81D;
+color: 0000;
+border: none;
+border-radius: 15px 15px 15px 15px;
+   
+Button hover 
+background: #e1d01a;
+
+Output  
+color: white;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+ */
+

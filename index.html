@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Broken Link Checker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+    <div class="link-container">
+        <h1>Broken Link Checker</h1>
+        <div class="inside-container">
+            <label for="url">Enter a URL to check:</label>
+            <input type="text" id="url" placeholder="https://example.com">
+            <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfCvGklAAAAAMLZYh7I7Pg6WmXovAV3TiV6YyP5"></div>
+            <button onclick="checkLinks()">Check Links</button>
+        </div>
+                
+        <div class="result"><span id="result"></span></div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
