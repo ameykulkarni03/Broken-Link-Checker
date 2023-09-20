@@ -8,7 +8,7 @@
 }
 
 .link-container {
-    background-color: #336699;
+    background-color: #154687;
   
     padding: 80px 50px;
     display: flex;
@@ -16,12 +16,6 @@
     justify-content: center;
     
 }
-
-/* .inside-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
 
 h1 {
     color: rgb(255, 255, 255);
@@ -92,33 +86,3 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
-/* Input box
-font-family:Poppins;
-font-size: 18px;
-font-weight: 400;
-background-color:#EDF2F3;
-width: 80%;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
-
-Button
-font-size: 14px;
-text-align: center;
-text-transform: uppercase;
-font-weight: 600;
-background: #FAE81D;
-color: 0000;
-border: none;
-border-radius: 15px 15px 15px 15px;
-   
-Button hover 
-background: #e1d01a;
-
-Output  
-color: white;
-font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
- */
-
